@@ -19,5 +19,13 @@ namespace AppShop.Controllers
         {
             return await Mediator.Send(command);
         }
+
+        [HttpPost]
+        [Route("Complete")]
+        public async Task<ActionResult<int>> Create(CreateSalesCommand command)
+        {
+            return await Mediator.Send(command);
+        }
+
     }
 }
