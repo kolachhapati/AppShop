@@ -1,0 +1,9 @@
+E:\AppShop\AppShop.Domain\bin\Release\netstandard2.0\AppShop.Domain.deps.json
+E:\AppShop\AppShop.Domain\bin\Release\netstandard2.0\AppShop.Domain.dll
+E:\AppShop\AppShop.Domain\bin\Release\netstandard2.0\AppShop.Domain.pdb
+E:\AppShop\AppShop.Domain\obj\Release\netstandard2.0\AppShop.Domain.AssemblyInfoInputs.cache
+E:\AppShop\AppShop.Domain\obj\Release\netstandard2.0\AppShop.Domain.AssemblyInfo.cs
+E:\AppShop\AppShop.Domain\obj\Release\netstandard2.0\AppShop.Domain.csproj.CoreCompileInputs.cache
+E:\AppShop\AppShop.Domain\obj\Release\netstandard2.0\AppShop.Domain.dll
+E:\AppShop\AppShop.Domain\obj\Release\netstandard2.0\AppShop.Domain.pdb
+E:\AppShop\AppShop.Domain\obj\Release\netstandard2.0\AppShop.Domain.csprojAssemblyReference.cache

@@ -1,0 +1,14 @@
+E:\AppShop\AppShop.Infrastructure\bin\Release\netstandard2.0\AppShop.Infrastructure.deps.json
+E:\AppShop\AppShop.Infrastructure\bin\Release\netstandard2.0\AppShop.Infrastructure.dll
+E:\AppShop\AppShop.Infrastructure\bin\Release\netstandard2.0\AppShop.Infrastructure.pdb
+E:\AppShop\AppShop.Infrastructure\bin\Release\netstandard2.0\AppShop.Application.dll
+E:\AppShop\AppShop.Infrastructure\bin\Release\netstandard2.0\AppShop.Domain.dll
+E:\AppShop\AppShop.Infrastructure\bin\Release\netstandard2.0\AppShop.Application.pdb
+E:\AppShop\AppShop.Infrastructure\bin\Release\netstandard2.0\AppShop.Domain.pdb
+E:\AppShop\AppShop.Infrastructure\obj\Release\netstandard2.0\AppShop.Infrastructure.csprojAssemblyReference.cache
+E:\AppShop\AppShop.Infrastructure\obj\Release\netstandard2.0\AppShop.Infrastructure.AssemblyInfoInputs.cache
+E:\AppShop\AppShop.Infrastructure\obj\Release\netstandard2.0\AppShop.Infrastructure.AssemblyInfo.cs
+E:\AppShop\AppShop.Infrastructure\obj\Release\netstandard2.0\AppShop.Infrastructure.csproj.CoreCompileInputs.cache
+E:\AppShop\AppShop.Infrastructure\obj\Release\netstandard2.0\AppShop.Infrastructure.csproj.CopyComplete
+E:\AppShop\AppShop.Infrastructure\obj\Release\netstandard2.0\AppShop.Infrastructure.dll
+E:\AppShop\AppShop.Infrastructure\obj\Release\netstandard2.0\AppShop.Infrastructure.pdb

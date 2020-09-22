@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iXGgzA+trPQyuEZC2G+Hcb43PfSXQKsjoYSuXrIMOjZH16I4fZidEtlAM1k58tejdN+HJJyKZDZtO1pUzyGQvA==",
+  "success": true,
+  "projectFilePath": "E:\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sakar-PC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Sakar-PC\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
