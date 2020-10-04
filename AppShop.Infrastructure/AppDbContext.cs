@@ -22,6 +22,7 @@ namespace AppShop.Infrastructure
         public DbSet<OrderEntity> Orders { get; set; }
         public DbSet<CustomerEntity> Customers { get; set; }
         public DbSet<SalesEntity> Sales { get; set; }
+        public DbSet<ProductCategoryEntity> ProductCategory { get; set; }
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
             foreach (var entry in ChangeTracker.Entries<CommonEntity>())

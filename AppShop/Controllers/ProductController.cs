@@ -27,5 +27,12 @@ namespace AppShop.Controllers
         {
             return await Mediator.Send(command);
         }
+
+        [HttpPost]
+        [Route("CreateProdCat")]
+        public async Task<ActionResult<int>> Create(CreateProductCategoryCommand command)
+        {
+            return await Mediator.Send(command);
+        }
     }
 }
