@@ -24,12 +24,14 @@ namespace AppShop.Application.Product.Queries.GetProducts
         {
             _context = context;
         }
-        public async Task<List<ProductCategoryEntity>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
+        public async Task<List<ProductCategoryEntity>> Handle(GetProdCatQuery request, CancellationToken cancellationToken)
         {
 
             List<ProductCategoryEntity> ProductEntity = await _context.ProductCategory.ToListAsync();
 
             return ProductEntity;
         }
+
+       
     }
 }
