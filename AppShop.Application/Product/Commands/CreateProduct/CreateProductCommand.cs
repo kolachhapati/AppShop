@@ -26,6 +26,7 @@ namespace AppShop.Application.Product.Commands.CreateProduct
         }
         public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
+            //INSTEAD OF ProductEntity CREATE NEW PRODUCT ENTITY DTO OBJECT
             var entity = new ProductEntity
             {
                 Name = request.Name,

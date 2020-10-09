@@ -27,5 +27,20 @@ namespace AppShop.Controllers
         {
             return await Mediator.Send(command);
         }
+
+        [HttpPost]
+        [Route("CreateProdCat")]
+        public async Task<ActionResult<int>> Create(CreateProductCategoryCommand command)
+        {
+            return await Mediator.Send(command);
+        }
+
+        [HttpGet]
+        [Route("GetCat")]
+        public async Task<ActionResult<List<ProductCategoryEntity>>> GetCat()
+        {
+            return await Mediator.Send(new GetProductsQuery());
+            await throw new NotImplementedException();
+        }
     }
 }

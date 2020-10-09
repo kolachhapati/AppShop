@@ -14,7 +14,7 @@ namespace AppShop.Application.Common.Interfaces
         DbSet<OrderEntity> Orders { get; set; }
         DbSet<CustomerEntity> Customers { get; set; }
         DbSet<SalesEntity> Sales { get; set; }
-
+        DbSet<ProductCategoryEntity> ProductCategory { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
         Task BeginTransactionAsync();
         void RollbackTransaction();
