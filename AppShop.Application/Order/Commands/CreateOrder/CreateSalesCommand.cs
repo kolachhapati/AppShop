@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AppShop.Application.Order.Commands.CreateOrder
 {
-    public class CreateSalesCommand : IRequest<int>
+    public class CreateSalesCommand : IRequest<string>
     {
         public string Name { get; set; }
         public string PhoneNumber { get; set; }
@@ -19,7 +19,7 @@ namespace AppShop.Application.Order.Commands.CreateOrder
         //public int? CustomerId { get; set; }
     }
 
-    public class CreateSalesCommandHandler : IRequestHandler<CreateSalesCommand, int>
+    public class CreateSalesCommandHandler : IRequestHandler<CreateSalesCommand, string>
     {
         private readonly IAppDbContext _context;
 
@@ -27,7 +27,7 @@ namespace AppShop.Application.Order.Commands.CreateOrder
         {
             _context = context;
         }
-        public async Task<int> Handle(CreateSalesCommand request, CancellationToken cancellationToken)
+        public async Task<string> Handle(CreateSalesCommand request, CancellationToken cancellationToken)
         {
             var customer = new CustomerEntity()
             {
