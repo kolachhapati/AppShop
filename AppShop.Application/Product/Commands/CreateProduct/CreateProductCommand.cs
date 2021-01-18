@@ -2,6 +2,7 @@
 using MediatR;
 using System;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Text;
 using System.Threading;
 using AppShop.Application.Common.Interfaces;
@@ -14,6 +15,7 @@ namespace AppShop.Application.Product.Commands.CreateProduct
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
+        public int ProductCategoryId { get; set; }
     }
 
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, int>
@@ -27,11 +29,16 @@ namespace AppShop.Application.Product.Commands.CreateProduct
         public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
             //INSTEAD OF ProductEntity CREATE NEW PRODUCT ENTITY DTO OBJECT
+            List<ProductCategoryEntity> prodcategories = await _context.ProductCategory.ToListAsync();
+
+            var category = prodcategories.Find(x => x.ProductCategoryId == request.ProductCategoryId);
+
             var entity = new ProductEntity
             {
                 Name = request.Name,
                 Description = request.Description,
-                Price = request.Price
+                Price = request.Price,
+                ProductCategory = category
             };
 
             _context.Products.Add(entity);

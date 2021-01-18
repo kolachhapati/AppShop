@@ -58,7 +58,7 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                 _context.RollbackTransaction();
                 throw;
             }
-            return customer.CustomerId;
+            return customer.CustomerId.ToString();
         }
 
     }
