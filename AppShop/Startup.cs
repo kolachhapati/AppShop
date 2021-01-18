@@ -32,9 +32,8 @@ namespace AppShop
             services.AddApplication();
             services.AddCors(options =>
             {
-                options.AddPolicy(
-                  "CorsPolicy",
-                  builder => builder.WithOrigins("http://localhost:4200")
+                options.AddPolicy( "CorsPolicy", 
+                   builder => builder.WithOrigins("http://localhost:2000", "http://localhost")
                   .AllowAnyMethod()
                   .AllowAnyHeader()
                   .AllowCredentials());

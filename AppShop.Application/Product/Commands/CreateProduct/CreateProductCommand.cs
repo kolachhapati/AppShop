@@ -6,12 +6,15 @@ using System.Text;
 using System.Threading;
 using AppShop.Application.Common.Interfaces;
 using System.Threading.Tasks;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace AppShop.Application.Product.Commands.CreateProduct
 {
     public class CreateProductCommand : IRequest<int>
     {
         public string Name { get; set; }
+        public int  ProductCategoryId { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
     }
@@ -31,7 +34,8 @@ namespace AppShop.Application.Product.Commands.CreateProduct
             {
                 Name = request.Name,
                 Description = request.Description,
-                Price = request.Price
+                Price = request.Price,
+                ProductCategory = _context.ProductCategory.SingleOrDefault(a => a.ProductCategoryId == request.ProductCategoryId)
             };
 
             _context.Products.Add(entity);
