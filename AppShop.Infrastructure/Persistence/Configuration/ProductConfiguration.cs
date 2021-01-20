@@ -13,7 +13,7 @@ namespace AppShop.Infrastructure.Persistence.Configuration
         {
             builder.Property(p => p.Price).HasColumnType<decimal>($"decimal({18},{2})");
             builder.HasKey(p => p.ProductId);
-            builder.HasOne(p => p.ProductCategory).WithMany().HasForeignKey("ProductCategoryId");
+            builder.HasOne(p => p.ProductCategory).WithMany().HasForeignKey(x => x.ProductCategoryId);
         }
     }
 }

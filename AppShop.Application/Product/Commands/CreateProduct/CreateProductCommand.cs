@@ -15,7 +15,7 @@ namespace AppShop.Application.Product.Commands.CreateProduct
     public class CreateProductCommand : IRequest<int>
     {
         public string Name { get; set; }
-        public int  ProductCategoryId { get; set; }
+        public int ProductCategoryId { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
     }
@@ -31,9 +31,7 @@ namespace AppShop.Application.Product.Commands.CreateProduct
         public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
             //INSTEAD OF ProductEntity CREATE NEW PRODUCT ENTITY DTO OBJECT
-            List<ProductCategoryEntity> prodcategories = await _context.ProductCategory.ToListAsync();
-
-            var category = prodcategories.Find(x => x.ProductCategoryId == request.ProductCategoryId);
+            ProductCategoryEntity category = _context.ProductCategory.Where(x => x.ProductCategoryId == request.ProductCategoryId).SingleOrDefault();
 
             var entity = new ProductEntity
             {

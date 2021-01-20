@@ -1,12 +1,12 @@
+E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.csprojAssemblyReference.cache
+E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.AssemblyInfoInputs.cache
+E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.AssemblyInfo.cs
+E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.csproj.CoreCompileInputs.cache
 E:\AppShop\AppShop.Application\bin\Debug\netstandard2.0\AppShop.Application.deps.json
 E:\AppShop\AppShop.Application\bin\Debug\netstandard2.0\AppShop.Application.dll
 E:\AppShop\AppShop.Application\bin\Debug\netstandard2.0\AppShop.Application.pdb
 E:\AppShop\AppShop.Application\bin\Debug\netstandard2.0\AppShop.Domain.dll
 E:\AppShop\AppShop.Application\bin\Debug\netstandard2.0\AppShop.Domain.pdb
-E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.csprojAssemblyReference.cache
-E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.AssemblyInfoInputs.cache
-E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.AssemblyInfo.cs
-E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.csproj.CoreCompileInputs.cache
 E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.csproj.CopyComplete
 E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.dll
 E:\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.pdb

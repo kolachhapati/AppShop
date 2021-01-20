@@ -1,3 +1,7 @@
+E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.AssemblyInfoInputs.cache
+E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.AssemblyInfo.cs
+E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.csproj.CoreCompileInputs.cache
+E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.MvcApplicationPartsAssemblyInfo.cache
 E:\AppShop\AppShop\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\AppShop\AppShop\bin\Debug\netcoreapp3.1\appsettings.json
 E:\AppShop\AppShop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -72,10 +76,6 @@ E:\AppShop\AppShop\bin\Debug\netcoreapp3.1\AppShop.Application.pdb
 E:\AppShop\AppShop\bin\Debug\netcoreapp3.1\AppShop.Infrastructure.pdb
 E:\AppShop\AppShop\bin\Debug\netcoreapp3.1\AppShop.Domain.pdb
 E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.csprojAssemblyReference.cache
-E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.AssemblyInfoInputs.cache
-E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.AssemblyInfo.cs
-E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.csproj.CoreCompileInputs.cache
-E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.MvcApplicationPartsAssemblyInfo.cache
 E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.RazorTargetAssemblyInfo.cache
 E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.csproj.CopyComplete
 E:\AppShop\AppShop\obj\Debug\netcoreapp3.1\staticwebassets\AppShop.StaticWebAssets.Manifest.cache

@@ -141,7 +141,7 @@ namespace AppShop.Infrastructure.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("ProductCategoryId")
+                    b.Property<int>("ProductCategoryId")
                         .HasColumnType("int");
 
                     b.HasKey("ProductId");
@@ -195,7 +195,9 @@ namespace AppShop.Infrastructure.Migrations
                 {
                     b.HasOne("AppShop.Domain.Entity.ProductCategoryEntity", "ProductCategory")
                         .WithMany()
-                        .HasForeignKey("ProductCategoryId");
+                        .HasForeignKey("ProductCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
