@@ -18,7 +18,6 @@ namespace AppShop.Application.Product.Commands.CreateProduct
         public int  ProductCategoryId { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
-        public int ProductCategoryId { get; set; }
     }
 
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, int>
@@ -41,6 +40,7 @@ namespace AppShop.Application.Product.Commands.CreateProduct
                 Name = request.Name,
                 Description = request.Description,
                 Price = request.Price,
+                ProductCategory = category
             };
 
             _context.Products.Add(entity);

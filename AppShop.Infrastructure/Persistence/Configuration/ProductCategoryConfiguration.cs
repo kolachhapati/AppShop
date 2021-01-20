@@ -9,10 +9,9 @@ namespace AppShop.Infrastructure.Persistence.Configuration
 {
     public class ProductCategoryConfiguration : IEntityTypeConfiguration<ProductCategoryEntity>
     {
-
-
         public void Configure(EntityTypeBuilder<ProductCategoryEntity> builder)
         {
             builder.HasKey(prop => prop.ProductCategoryId);
-}
+        }
+    }
 }

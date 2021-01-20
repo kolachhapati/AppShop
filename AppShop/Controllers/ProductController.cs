@@ -21,6 +21,13 @@ namespace AppShop.Controllers
             return await Mediator.Send(new GetProductsQuery());
         }
 
+        [HttpGet]
+        [Route("GetById")]
+        public async Task<ActionResult<List<ProductEntity>>> GetById(int id)
+        {
+            return await Mediator.Send(new GetProductsByIdQuery { ProductCategoryId = id });
+        }
+
         [HttpPost]
         [Route("Create")]
         public async Task<ActionResult<int>> Create(CreateProductCommand command)
