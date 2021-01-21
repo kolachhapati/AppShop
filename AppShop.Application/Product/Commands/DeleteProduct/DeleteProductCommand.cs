@@ -4,16 +4,17 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using AppShop.Application.Common.Interfaces;
+using System.Linq;
 using MediatR;
 
 namespace AppShop.Application.Product.Commands.DeleteProduct
 {
-    public class DeleteProductCommand :IRequest
+    public class DeleteProductCommand : IRequest<string>
     {
         public int Id { get; set; }
     }
 
-    public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand>
+    public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand, string>
     {
         private readonly IAppDbContext _context;
 
@@ -22,18 +23,25 @@ namespace AppShop.Application.Product.Commands.DeleteProduct
             _context = context;
         }
 
-        public async Task<Unit> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
+        public async Task<string> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
         {
-            var entity = await _context.Products.FindAsync(request.Id);
-             
+            var entity = _context.Products.Where(x => x.ProductId == request.Id).SingleOrDefault();
+            string output= "";
             if (entity != null)
             {
-               _context.Products.Remove(entity);
+                try
+                {
+                    _context.Products.Remove(entity);
+                    await _context.SaveChangesAsync(cancellationToken);
+                    output = "Success";
+                }
+                catch (Exception)
+                {
+                    output = "Failure";
+                }
             }
 
-            await _context.SaveChangesAsync(cancellationToken);
-
-            return Unit.Value;
+            return output;
         }
     }
 }

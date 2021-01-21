@@ -31,6 +31,7 @@ namespace AppShop.Application.Product.Queries.GetProducts
                                               join c in _context.ProductCategory on p.ProductCategoryId equals c.ProductCategoryId
                                               select new ProductVm()
                                               {
+                                                  ProductId = p.ProductId,
                                                   Name = p.Name,
                                                   Description = p.Description,
                                                   Price = p.Price,

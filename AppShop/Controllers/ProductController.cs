@@ -53,18 +53,16 @@ namespace AppShop.Controllers
 
         [HttpDelete]
         [Route("DelProduct")]
-        public async Task<ActionResult> DeleteProduct(int id)
+        public async Task<ActionResult<string>> DeleteProduct(int id)
         {
-            await Mediator.Send(new DeleteProductCommand { Id = id });
-            return NoContent();
+            return await Mediator.Send(new DeleteProductCommand { Id = id });
         }
 
         [HttpDelete]
         [Route("DelProdCat")]
-        public async Task<ActionResult> DeleteProductCategory(int id)
+        public async Task<ActionResult<string>> DeleteProductCategory(int id)
         {
-            await Mediator.Send(new DeleteProductCategoryCommand { Id = id });
-            return NoContent();
+            return await Mediator.Send(new DeleteProductCategoryCommand { Id = id });
         }
     }
 }

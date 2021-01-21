@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AppShop.Infrastructure.Migrations
 {
-    public partial class _2 : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -105,7 +105,7 @@ namespace AppShop.Infrastructure.Migrations
                         column: x => x.ProductCategoryId,
                         principalTable: "ProductCategory",
                         principalColumn: "ProductCategoryId",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
