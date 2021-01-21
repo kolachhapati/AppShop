@@ -6367,23 +6367,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sakar-PC\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\SS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\AppShop\\AppShop\\AppShop.csproj",
+      "projectUniqueName": "D:\\Sakar_1031\\AppShop\\AppShop\\AppShop.csproj",
       "projectName": "AppShop",
-      "projectPath": "E:\\AppShop\\AppShop\\AppShop.csproj",
-      "packagesPath": "C:\\Users\\Sakar-PC\\.nuget\\packages\\",
-      "outputPath": "E:\\AppShop\\AppShop\\obj\\",
+      "projectPath": "D:\\Sakar_1031\\AppShop\\AppShop\\AppShop.csproj",
+      "packagesPath": "C:\\Users\\SS\\.nuget\\packages\\",
+      "outputPath": "D:\\Sakar_1031\\AppShop\\AppShop\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sakar-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6395,12 +6391,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
-              "projectPath": "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
+            "D:\\Sakar_1031\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
+              "projectPath": "D:\\Sakar_1031\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
             },
-            "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj": {
-              "projectPath": "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj"
+            "D:\\Sakar_1031\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj": {
+              "projectPath": "D:\\Sakar_1031\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj"
             }
           }
         }
@@ -6413,6 +6410,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -6443,7 +6441,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

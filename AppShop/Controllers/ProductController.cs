@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AppShop.Application.Product.Commands.CreateProduct;
+using AppShop.Application.Product.Commands.DeleteProduct;
 using AppShop.Application.Product.Queries.GetProducts;
 using AppShop.Application.Product.Queries.ViewModel;
 using AppShop.Domain.Entity;
@@ -48,6 +49,22 @@ namespace AppShop.Controllers
         public async Task<ActionResult<List<ProductCategoryEntity>>> GetCat()
         {
             return await Mediator.Send(new GetProdCatQuery());
+        }
+
+        [HttpDelete]
+        [Route("DelProduct")]
+        public async Task<ActionResult> DeleteProduct(int id)
+        {
+            await Mediator.Send(new DeleteProductCommand { Id = id });
+            return NoContent();
+        }
+
+        [HttpDelete]
+        [Route("DelProdCat")]
+        public async Task<ActionResult> DeleteProductCategory(int id)
+        {
+            await Mediator.Send(new DeleteProductCategoryCommand { Id = id });
+            return NoContent();
         }
     }
 }

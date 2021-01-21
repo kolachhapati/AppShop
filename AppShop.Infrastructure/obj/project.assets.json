@@ -6285,23 +6285,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sakar-PC\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\SS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Sakar_1031\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj",
       "projectName": "AppShop.Infrastructure",
-      "projectPath": "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Sakar-PC\\.nuget\\packages\\",
-      "outputPath": "E:\\AppShop\\AppShop.Infrastructure\\obj\\",
+      "projectPath": "D:\\Sakar_1031\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\SS\\.nuget\\packages\\",
+      "outputPath": "D:\\Sakar_1031\\AppShop\\AppShop.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sakar-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6313,9 +6309,10 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
-              "projectPath": "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
+            "D:\\Sakar_1031\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
+              "projectPath": "D:\\Sakar_1031\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
             }
           }
         }
@@ -6328,6 +6325,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -6354,7 +6352,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
