@@ -26,3 +26,17 @@ D:\Sakar_1031\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.In
 D:\Sakar_1031\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.csproj.CopyComplete
 D:\Sakar_1031\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.dll
 D:\Sakar_1031\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.pdb
+D:\ShopApp\AppShop\AppShop.Infrastructure\bin\Debug\netstandard2.0\AppShop.Infrastructure.deps.json
+D:\ShopApp\AppShop\AppShop.Infrastructure\bin\Debug\netstandard2.0\AppShop.Infrastructure.dll
+D:\ShopApp\AppShop\AppShop.Infrastructure\bin\Debug\netstandard2.0\AppShop.Infrastructure.pdb
+D:\ShopApp\AppShop\AppShop.Infrastructure\bin\Debug\netstandard2.0\AppShop.Application.dll
+D:\ShopApp\AppShop\AppShop.Infrastructure\bin\Debug\netstandard2.0\AppShop.Domain.dll
+D:\ShopApp\AppShop\AppShop.Infrastructure\bin\Debug\netstandard2.0\AppShop.Application.pdb
+D:\ShopApp\AppShop\AppShop.Infrastructure\bin\Debug\netstandard2.0\AppShop.Domain.pdb
+D:\ShopApp\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.csprojAssemblyReference.cache
+D:\ShopApp\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.AssemblyInfoInputs.cache
+D:\ShopApp\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.AssemblyInfo.cs
+D:\ShopApp\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ShopApp\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.csproj.CopyComplete
+D:\ShopApp\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.dll
+D:\ShopApp\AppShop\AppShop.Infrastructure\obj\Debug\netstandard2.0\AppShop.Infrastructure.pdb

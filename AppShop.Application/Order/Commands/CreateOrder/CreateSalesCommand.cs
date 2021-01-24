@@ -3,7 +3,7 @@ using AppShop.Domain.Entity;
 using MediatR;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -29,18 +29,26 @@ namespace AppShop.Application.Order.Commands.CreateOrder
         }
         public async Task<string> Handle(CreateSalesCommand request, CancellationToken cancellationToken)
         {
-            var customer = new CustomerEntity()
+            CustomerEntity customer = _context.Customers.Where(c => c.PhoneNumber == request.PhoneNumber).SingleOrDefault();
+
+            if (customer == null)
             {
-                Name = request.Name,
-                PhoneNumber = request.PhoneNumber,
-                Email = request.Email
-            };
+                customer = new CustomerEntity()
+                {
+                    Name = request.Name,
+                    PhoneNumber = request.PhoneNumber,
+                    Email = request.Email
+                };
+            }
 
             try
             {
                 await _context.BeginTransactionAsync();
-                _context.Customers.Add(customer);
-                await _context.SaveChangesAsync(cancellationToken);
+                if (customer != null)
+                {
+                    _context.Customers.Add(customer);
+                    await _context.SaveChangesAsync(cancellationToken);
+                }
 
                 var sales = new SalesEntity()
                 {
