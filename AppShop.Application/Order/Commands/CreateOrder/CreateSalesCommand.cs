@@ -30,7 +30,13 @@ namespace AppShop.Application.Order.Commands.CreateOrder
         public async Task<string> Handle(CreateSalesCommand request, CancellationToken cancellationToken)
         {
             CustomerEntity customer = _context.Customers.Where(c => c.PhoneNumber == request.PhoneNumber).SingleOrDefault();
+            string invoiceNumber = string.Empty;
             bool existingCustomer = true;
+            var invoiceId = 1;
+            var maxSalesId = _context.Sales.OrderByDescending(x => x.SalesId).FirstOrDefault();
+            if (!maxSalesId.Equals(null))
+                invoiceId = maxSalesId.SalesId + 1;
+
 
             if (customer == null)
             {
@@ -42,9 +48,10 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                 };
                 existingCustomer = false;
             }
-
             try
             {
+                invoiceNumber = "ORD-" + customer.PhoneNumber + "-" + invoiceId.ToString();
+
                 await _context.BeginTransactionAsync();
                 if (!existingCustomer)
                 {
@@ -52,7 +59,7 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                         customer.Name = request.Name;
                     if (!string.IsNullOrEmpty(request.Email))
                         customer.Email = request.Email;
-                    
+
                     _context.Customers.Add(customer);
                     _context.Customers.Update(customer);
                     await _context.SaveChangesAsync(cancellationToken);
@@ -67,6 +74,7 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                 {
                     OrderGroup = request.OrderGroup,
                     CustomerId = customer.CustomerId,
+                    InvoiceNumber = invoiceNumber,
                     Total = request.Total
                 };
                 _context.Sales.Add(sales);
@@ -80,7 +88,7 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                 _context.RollbackTransaction();
                 throw;
             }
-            return customer.CustomerId.ToString();
+            return invoiceNumber;
         }
 
     }
