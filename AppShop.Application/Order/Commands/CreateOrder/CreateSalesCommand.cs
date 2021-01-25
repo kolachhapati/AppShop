@@ -30,6 +30,7 @@ namespace AppShop.Application.Order.Commands.CreateOrder
         public async Task<string> Handle(CreateSalesCommand request, CancellationToken cancellationToken)
         {
             CustomerEntity customer = _context.Customers.Where(c => c.PhoneNumber == request.PhoneNumber).SingleOrDefault();
+            bool existingCustomer = true;
 
             if (customer == null)
             {
@@ -39,14 +40,26 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                     PhoneNumber = request.PhoneNumber,
                     Email = request.Email
                 };
+                existingCustomer = false;
             }
 
             try
             {
                 await _context.BeginTransactionAsync();
-                if (customer != null)
+                if (!existingCustomer)
                 {
+                    if (!string.IsNullOrEmpty(request.Name))
+                        customer.Name = request.Name;
+                    if (!string.IsNullOrEmpty(request.Email))
+                        customer.Email = request.Email;
+                    
                     _context.Customers.Add(customer);
+                    _context.Customers.Update(customer);
+                    await _context.SaveChangesAsync(cancellationToken);
+                }
+                else
+                {
+                    _context.Customers.Update(customer);
                     await _context.SaveChangesAsync(cancellationToken);
                 }
 
@@ -61,8 +74,9 @@ namespace AppShop.Application.Order.Commands.CreateOrder
 
                 await _context.CommitTransactionAsync();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                var exception = ex.Message.ToString();
                 _context.RollbackTransaction();
                 throw;
             }
