@@ -5,11 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Order\Commands\UpdateOrder\**" />
+    <EmbeddedResource Remove="Order\Commands\UpdateOrder\**" />
+    <None Remove="Order\Commands\UpdateOrder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AppShop.Domain\AppShop.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Order\Commands\UpdateOrder\" />
     <Folder Include="Order\Queries\GetOrder\" />
   </ItemGroup>
 
