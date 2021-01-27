@@ -30,7 +30,7 @@ D:\ShopApp\AppShop\AppShop.Application\bin\Debug\netstandard2.0\AppShop.Domain.p
 D:\ShopApp\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.csprojAssemblyReference.cache
 D:\ShopApp\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.AssemblyInfoInputs.cache
 D:\ShopApp\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.AssemblyInfo.cs
-D:\ShopApp\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.csproj.CoreCompileInputs.cache
 D:\ShopApp\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.csproj.CopyComplete
 D:\ShopApp\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.dll
 D:\ShopApp\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.pdb
+D:\ShopApp\AppShop\AppShop.Application\obj\Debug\netstandard2.0\AppShop.Application.csproj.CoreCompileInputs.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sdB7UEZ4UyInvHyBSBr0rzh23MuyeJnyEuuPaqBIzrAvkEoXNlSZ1AS+1Qf2HbVpCtpKd9UlAS9vJwzcrDppkQ==",
+  "dgSpecHash": "XIbpz2CmUpFB4L0aadJ2gLlBo3mOMxM2kS9hARtQDLdnAj1iaUAYK7Iq8p6g4SNydySENSVAcnnRknWpTf5SpA==",
   "success": true,
   "projectFilePath": "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\Mercantile\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
     "C:\\Users\\Mercantile\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Mercantile\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Mercantile\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Mercantile\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Mercantile\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\Mercantile\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",

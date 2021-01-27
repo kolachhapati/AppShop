@@ -1,6 +1,7 @@
 ﻿using AppShop.Application.Common.Interfaces;
 using AppShop.Domain.Entity;
 using MediatR;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -61,7 +62,6 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                         customer.Email = request.Email;
 
                     _context.Customers.Add(customer);
-                    _context.Customers.Update(customer);
                     await _context.SaveChangesAsync(cancellationToken);
                 }
                 else
@@ -88,7 +88,8 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                 _context.RollbackTransaction();
                 throw;
             }
-            return invoiceNumber;
+
+            return  JsonConvert.SerializeObject(invoiceNumber);
         }
 
     }

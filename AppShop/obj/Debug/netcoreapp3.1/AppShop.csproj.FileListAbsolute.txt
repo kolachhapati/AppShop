@@ -244,8 +244,6 @@ D:\ShopApp\AppShop\AppShop\bin\Debug\netcoreapp3.1\AppShop.Domain.pdb
 D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.csprojAssemblyReference.cache
 D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.AssemblyInfoInputs.cache
 D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.AssemblyInfo.cs
-D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.csproj.CoreCompileInputs.cache
-D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.MvcApplicationPartsAssemblyInfo.cache
 D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.RazorTargetAssemblyInfo.cache
 D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.csproj.CopyComplete
 D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\staticwebassets\AppShop.StaticWebAssets.Manifest.cache
@@ -253,3 +251,5 @@ D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\staticwebassets\AppShop.Stati
 D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.dll
 D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.pdb
 D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.genruntimeconfig.cache
+D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.csproj.CoreCompileInputs.cache
+D:\ShopApp\AppShop\AppShop\obj\Debug\netcoreapp3.1\AppShop.MvcApplicationPartsAssemblyInfo.cache
