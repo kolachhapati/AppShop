@@ -1,12 +1,3 @@
-E:\AppShop\AppShop.Domain\bin\Debug\netstandard2.0\AppShop.Domain.deps.json
-E:\AppShop\AppShop.Domain\bin\Debug\netstandard2.0\AppShop.Domain.dll
-E:\AppShop\AppShop.Domain\bin\Debug\netstandard2.0\AppShop.Domain.pdb
-E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.AssemblyInfoInputs.cache
-E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.AssemblyInfo.cs
-E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.csproj.CoreCompileInputs.cache
-E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.dll
-E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.pdb
-E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.csprojAssemblyReference.cache
 D:\Sakar_1031\AppShop\AppShop.Domain\bin\Debug\netstandard2.0\AppShop.Domain.deps.json
 D:\Sakar_1031\AppShop\AppShop.Domain\bin\Debug\netstandard2.0\AppShop.Domain.dll
 D:\Sakar_1031\AppShop\AppShop.Domain\bin\Debug\netstandard2.0\AppShop.Domain.pdb
@@ -25,3 +16,11 @@ D:\ShopApp\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.Assemb
 D:\ShopApp\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.dll
 D:\ShopApp\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.pdb
 D:\ShopApp\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.csproj.CoreCompileInputs.cache
+E:\AppShop\AppShop.Domain\bin\Debug\netstandard2.0\AppShop.Domain.deps.json
+E:\AppShop\AppShop.Domain\bin\Debug\netstandard2.0\AppShop.Domain.dll
+E:\AppShop\AppShop.Domain\bin\Debug\netstandard2.0\AppShop.Domain.pdb
+E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.AssemblyInfoInputs.cache
+E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.AssemblyInfo.cs
+E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.csproj.CoreCompileInputs.cache
+E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.dll
+E:\AppShop\AppShop.Domain\obj\Debug\netstandard2.0\AppShop.Domain.pdb

@@ -40,7 +40,6 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                 invoiceId = maxSalesId.SalesId + 1;
             }
 
-
             if (customer == null)
             {
                 customer = new CustomerEntity()
