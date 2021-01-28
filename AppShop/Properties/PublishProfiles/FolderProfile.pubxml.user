@@ -8,8 +8,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
   </PropertyGroup>
   <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=DESKTOP-C8HFQLV\SQLEXPRESS%3bInitial Catalog=TestDB%3bPersist Security Info=False%3bUser ID=sakar%3bPassword=123456%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
     <EFMigrations Include="AppShop.Infrastructure.AppDbContext">
-      <Value>Data Source=%28local%29%3bInitial Catalog=TestDB%3bPersist Security Info=False%3bUser ID=sakar%3bPassword=123456%3b</Value>
+      <Value>Data Source=DESKTOP-C8HFQLV\SQLEXPRESS%3bInitial Catalog=TestDB%3bPersist Security Info=False%3bUser ID=sakar%3bPassword=123456%3b</Value>
     </EFMigrations>
   </ItemGroup>
 </Project>

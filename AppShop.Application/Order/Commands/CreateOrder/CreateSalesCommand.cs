@@ -35,8 +35,10 @@ namespace AppShop.Application.Order.Commands.CreateOrder
             bool existingCustomer = true;
             var invoiceId = 1;
             var maxSalesId = _context.Sales.OrderByDescending(x => x.SalesId).FirstOrDefault();
-            if (!maxSalesId.Equals(null))
+            if (maxSalesId != null)
+            {
                 invoiceId = maxSalesId.SalesId + 1;
+            }
 
 
             if (customer == null)

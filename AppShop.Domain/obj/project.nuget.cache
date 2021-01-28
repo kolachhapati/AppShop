@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IHnIxFDy9Jlt/0/PdY0+n/vVzhyyNjPa4qA54z9LXMCzsOJW2uJ0qoUAUrIlksC6tavYmNSN09/yf85mQGzS0g==",
+  "dgSpecHash": "KEJ/BsoC67s+1GyWjeZwpSAvYtNaSoX0Pp2A8/IRfcf0xGIjRLdM1HuZbyaXaa/r5shnKwFP149gHSveVNaNgw==",
   "success": true,
-  "projectFilePath": "D:\\ShopApp\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj",
+  "projectFilePath": "E:\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mercantile\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Mercantile\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Mercantile\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Sakar-PC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Sakar-PC\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Sakar-PC\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

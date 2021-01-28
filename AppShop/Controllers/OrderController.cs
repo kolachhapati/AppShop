@@ -22,7 +22,7 @@ namespace AppShop.Controllers
 
         [HttpPost]
         [Route("Complete")]
-        public async Task<ActionResult<string>> Create(CreateSalesCommand command)
+        public async Task<ActionResult<string>> Complete(CreateSalesCommand command)
         {
             return await Mediator.Send(command);
         }
