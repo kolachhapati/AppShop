@@ -85,11 +85,16 @@ namespace AppShop.Application.Order.Commands.CreateOrder
 
                 await _context.CommitTransactionAsync();
 
+                IEnumerable<OrderEntity> orderEntities =  _context.Orders.Where(x => x.OrderGroup == request.OrderGroup).ToList();
+                var totalOrders = orderEntities.Count();
+
                 result = new DocketVm()
                 {
                     CustomerName = customer.Name,
                     PhoneNumber = customer.PhoneNumber,
-                    DocketNumber = invoiceNumber
+                    DocketNumber = invoiceNumber,
+                    PickUpDetails = request.PickUpDate.ToString("dddd, dd MMMM yyyy") ,
+                    Qty = totalOrders
                 };
             }
 
@@ -99,9 +104,7 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                 _context.RollbackTransaction();
                 throw;
             }
-
             return JsonConvert.SerializeObject(result);
         }
-
     }
 }
