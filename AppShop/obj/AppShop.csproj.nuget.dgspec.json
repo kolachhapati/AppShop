@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AppShop\\AppShop\\AppShop.csproj": {}
+    "D:\\ShopApp\\AppShop\\AppShop\\AppShop.csproj": {}
   },
   "projects": {
-    "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
+    "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj",
+        "projectUniqueName": "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj",
         "projectName": "AppShop.Application",
-        "projectPath": "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj",
-        "packagesPath": "C:\\Users\\Sakar-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\AppShop\\AppShop.Application\\obj\\",
+        "projectPath": "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj",
+        "packagesPath": "C:\\Users\\Mercantile\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopApp\\AppShop\\AppShop.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sakar-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mercantile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj": {
-                "projectPath": "E:\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj"
+              "D:\\ShopApp\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj": {
+                "projectPath": "D:\\ShopApp\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj"
               }
             }
           }
@@ -74,24 +74,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj": {
+    "D:\\ShopApp\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj",
+        "projectUniqueName": "D:\\ShopApp\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj",
         "projectName": "AppShop.Domain",
-        "projectPath": "E:\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj",
-        "packagesPath": "C:\\Users\\Sakar-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\AppShop\\AppShop.Domain\\obj\\",
+        "projectPath": "D:\\ShopApp\\AppShop\\AppShop.Domain\\AppShop.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mercantile\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopApp\\AppShop\\AppShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sakar-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mercantile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,24 +136,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj": {
+    "D:\\ShopApp\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj",
+        "projectUniqueName": "D:\\ShopApp\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj",
         "projectName": "AppShop.Infrastructure",
-        "projectPath": "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Sakar-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\AppShop\\AppShop.Infrastructure\\obj\\",
+        "projectPath": "D:\\ShopApp\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Mercantile\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopApp\\AppShop\\AppShop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sakar-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mercantile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,8 +166,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
-                "projectPath": "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
+              "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
+                "projectPath": "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
               }
             }
           }
@@ -210,24 +210,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\AppShop\\AppShop\\AppShop.csproj": {
+    "D:\\ShopApp\\AppShop\\AppShop\\AppShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AppShop\\AppShop\\AppShop.csproj",
+        "projectUniqueName": "D:\\ShopApp\\AppShop\\AppShop\\AppShop.csproj",
         "projectName": "AppShop",
-        "projectPath": "E:\\AppShop\\AppShop\\AppShop.csproj",
-        "packagesPath": "C:\\Users\\Sakar-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\AppShop\\AppShop\\obj\\",
+        "projectPath": "D:\\ShopApp\\AppShop\\AppShop\\AppShop.csproj",
+        "packagesPath": "C:\\Users\\Mercantile\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopApp\\AppShop\\AppShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sakar-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mercantile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -240,11 +240,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
-                "projectPath": "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
+              "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
+                "projectPath": "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
               },
-              "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj": {
-                "projectPath": "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj"
+              "D:\\ShopApp\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj": {
+                "projectPath": "D:\\ShopApp\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj"
               }
             }
           }
@@ -291,7 +291,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

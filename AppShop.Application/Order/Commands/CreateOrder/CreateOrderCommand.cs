@@ -55,9 +55,6 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                                                 Amount = p.Price * Convert.ToDecimal(o.Quantity)
                                             }).ToListAsync();
 
-
-                
-
                 foreach (OrderVm order in orderVms.orderlist)
                 {
                     orderVms.GrandTotal += order.Amount;

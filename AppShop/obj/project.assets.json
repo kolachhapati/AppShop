@@ -3894,7 +3894,7 @@
       ]
     },
     "System.Net.NameResolution/4.3.0": {
-      "sha512": "AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
+      "sha512": "DPvMSdd32CbEOCTtOpO4nY9UvbP6LJe375F1yEQjy667WT5LEh1Ek2T4DSVw1STR0K3LSawWfBFwoeSG0TXFeA==",
       "type": "package",
       "path": "system.net.nameresolution/4.3.0",
       "files": [
@@ -5983,23 +5983,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sakar-PC\\.nuget\\packages\\": {},
+    "C:\\Users\\Mercantile\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\AppShop\\AppShop\\AppShop.csproj",
+      "projectUniqueName": "D:\\ShopApp\\AppShop\\AppShop\\AppShop.csproj",
       "projectName": "AppShop",
-      "projectPath": "E:\\AppShop\\AppShop\\AppShop.csproj",
-      "packagesPath": "C:\\Users\\Sakar-PC\\.nuget\\packages\\",
-      "outputPath": "E:\\AppShop\\AppShop\\obj\\",
+      "projectPath": "D:\\ShopApp\\AppShop\\AppShop\\AppShop.csproj",
+      "packagesPath": "C:\\Users\\Mercantile\\.nuget\\packages\\",
+      "outputPath": "D:\\ShopApp\\AppShop\\AppShop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sakar-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mercantile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6012,11 +6012,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
-              "projectPath": "E:\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
+            "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj": {
+              "projectPath": "D:\\ShopApp\\AppShop\\AppShop.Application\\AppShop.Application.csproj"
             },
-            "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj": {
-              "projectPath": "E:\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj"
+            "D:\\ShopApp\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj": {
+              "projectPath": "D:\\ShopApp\\AppShop\\AppShop.Infrastructure\\AppShop.Infrastructure.csproj"
             }
           }
         }
@@ -6063,7 +6063,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

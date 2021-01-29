@@ -11,6 +11,7 @@ namespace AppShop.Domain.Entity
         public string OrderGroup { get; set; }
         public decimal Total { get; set; }
         public string InvoiceNumber { get; set; }
-        public int? CustomerId { get; set; }
+        public DateTime PickUpDate { get; set; }
+        public int CustomerId { get; set; }
     }
 }

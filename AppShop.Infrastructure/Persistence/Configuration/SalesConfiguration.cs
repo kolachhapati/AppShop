@@ -14,6 +14,7 @@ namespace AppShop.Infrastructure.Persistence.Configuration
             builder.HasIndex(prop => prop.OrderGroup).IsUnique();
             builder.Property(prop => prop.OrderGroup).IsRequired();
             builder.Property(prop => prop.Total).HasColumnType<decimal>($"decimal({18},{2})");
+            builder.Property(prop => prop.PickUpDate).HasColumnType("date");
             builder.HasKey(key => key.SalesId);
         }
     }
