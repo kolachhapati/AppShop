@@ -44,6 +44,8 @@ namespace AppShop.Application.Order.Commands.CreateOrder
                     invoiceId = lastSales.SalesId + 1;
                 }
 
+                
+
                 if (customer == null)
                 {
                     customer = new CustomerEntity()
